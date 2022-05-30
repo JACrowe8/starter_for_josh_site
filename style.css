@@ -141,3 +141,36 @@ Version: 1
     font-weight: bold;
     padding: 5%;
 }
+
+.small_herobg {
+    width: 100%;
+background: url("images/small_header_bg.jpg ") no-repeat center center;
+background-size: cover;/*make the background image cover the whole div proportionally*/
+height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
+ 
+}
+
+
+
+.smallpage-bg {
+    width: 100%;
+background: url("images/page_header_bg.jpg") no-repeat center center;
+background-size: cover;/*make the background image cover the whole div proportionally*/
+height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
+
+}
+
+.smallpage-title{ 
+    font-size: 4em;
+    color: white;
+    font-weight: 800;
+    margin-top: 9%;
+    padding-bottom: 5%;
+}
+
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+}
